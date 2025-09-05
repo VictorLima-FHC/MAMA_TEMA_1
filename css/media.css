@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+  .s1-content,
+  .s2-container,
+  .s3-top,
+  .s3-content,
+  .s4-top,
+  .s4-outcomes,
+  .s4-safety,
+  .s5-container,
+  .s5-part2,
+  .s6-content {
+    padding: 40px !important;
+  }
+
+  .s1 .s1-content .side-block .gradient-text { font-size: 36px; }
+
+  .s2-bottom-container { gap: 50px !important; }
+  .s2-card { padding: 30px 40px !important; }
+  .s2-main-title { font-size: 22px !important; }
+  .s2-card-text h3 { font-size: 22px !important; }
+  .s2-card-text p { font-size: 18px !important; }
+  .s2-bottom-left h2 { font-size: 28px !important; }
+  .s2-bottom-left p { font-size: 18px !important; }
+  .s4-safety-left .segurancamobile { display: flex !important;}
+  .s4-safety-left .seguranca { display: none;}
+
+  .s3-left h2 { font-size: 28px !important; }
+  .s3-left p { font-size: 22px !important; }
+  .s3-bottom-left h2 { font-size: 26px !important; }
+
+  .s4-safety { flex-direction: column; gap: 40px; }
+  .s4-safety-right p { font-size: 22px !important; }
+  .s4-safety-item p { font-size: 16px !important; }
+
+  .s5-card h2 { font-size: 26px !important; }
+  .s5-card-content p { font-size: 22px !important; }
+  .s5-card-extra { font-size: 18px !important; }
+  .s5-part2 p { font-size: 24px !important; }
+  .s5-part3-card { padding: 40px !important; }
+  .s5-part3-text { left: 45% !important; }
+  .s5-part3-text h2 { font-size: 26px !important; }
+  .s5-part3-text p { font-size: 18px !important; }
+
+  .s6-right p { font-size: 20px !important; }
+}
+
+@media (max-width: 767px) {
+  .s1-content,
+  .s2-container,
+  .s3-top,
+  .s3-content,
+  .s4-top,
+  .s4-outcomes,
+  .s4-safety,
+  .s5-container,
+  .s5-part2,
+  .s6-content {
+    padding: 20px !important;
+  }
+
+  .s1 { min-height: 520px; background-position: center; align-items: end; background-image: url("../assets/bgmobile.png"); }
+  .s1 .s1-content { padding: 20px !important; justify-content: center !important; }
+  .s1 .s1-content .side-block { text-align: center; max-width: 100%; }
+  .s1 .s1-content .side-block .side-logo { margin: 0; max-width: 250px; }
+  .s1 .s1-content .side-block .gradient-text { font-size: 30px !important; text-align: start; }
+
+  .s2-top .s2-container { padding: 30px 20px !important; }
+  .s2-main-title { font-size: 18px !important; text-align: center; }
+  .s2-card { flex-direction: column; text-align: center; padding: 20px !important; margin: 0; align-items: self-start !important; gap: 10px !important; }
+  .s2-card-img { margin-bottom: 15px; }
+  .s2-card-text h3 { font-size: 18px !important; }
+  .s2-card-text p { font-size: 16px !important; }
+  .s2-bottom-container { flex-direction: column; gap: 30px !important; }
+  .s2-bottom-left { text-align: center; }
+  .s2-bottom-left h2 { font-size: 24px !important; }
+  .s2-bottom-left p { font-size: 16px !important; }
+  .s2-button { padding: 12px 40px !important; }
+  .s2-button-date { font-size: 16px !important; }
+  .s2-participant { text-align: start; gap: 10px; }
+  .s2-participant-info { align-items: start; }
+
+  .s3-top { flex-direction: column; gap: 20px; }
+  .s3-left { text-align: start; }
+  .s3-left h2 { font-size: 24px !important; }
+  .s3-left p { font-size: 18px !important; }
+  .s3-left p br { display: none; }
+  .s3-card { flex-direction: column; text-align: start; align-items: start !important; padding: 20px !important; }
+  .s3-content { flex-direction: column; }
+  .s3-bottom-left { text-align: start; max-width: 350px; padding-top: 0 !important; }
+  .s3-bottom-left h2 { font-size: 22px !important; }
+  .s3-bottom-right { display: flex; align-items: flex-start; }
+  .s3-bottom-right img { max-width: 90% !important; }
+
+  .s4-top { text-align: center; }
+  .s4-top-text { text-align: end !important; font-size: 0.5rem !important; }
+  .s4-top h2 { text-align: start; }
+  .s4-top h3 { font-weight: 400 !important; color: #281A58 !important; }
+  .s4-top h2, .s4-top h3 { font-size: 18px !important; }
+  .s4-safety { flex-direction: column; padding: 30px 20px !important; gap: 30px; }
+  .s4-safety .mobile { display: flex !important; font-size: 20px !important; }
+  .s4-safety h2 { display: none; }
+  .s4-safety-right h2 { font-size: 22px !important; text-align: center; }
+  .s4-safety-right p { font-size: 18px !important; text-align: start !important; }
+  .s4-safety-item { text-align: center; gap: 5px; }
+  .s4-safety-item p { font-size: 14px !important; }
+
+  .s5-card { padding: 20px 30px !important; text-align: start !important; }
+  .s5-card h2 { font-size: 20px !important; }
+  .s5-card-content img { width: 50px !important; }
+  .s5-card-content p { font-size: 16px !important; text-align: start; }
+  .s5-card-extra { font-size: 14px !important; text-align: start; }
+  .s5-part2 p { font-size: 16px !important; text-align: start; }
+  .s5-part3-top { margin-top: 10rem !important; }
+  .s5-part3-bottom { height: 200px !important; }
+  .s5-part3-card { padding: 20px !important; position: relative; top: 0rem !important; transform: none; left: 0; }
+  .desktop-bg { display: none !important; }
+  .mobile-bg { display: flex !important; }
+  .s5-part3-text h2 { font-size: 24px !important; margin-bottom: 10px !important; }
+  .s5-part3-text { left: 50% !important; }
+  .s5-part3-text p { width: 300px; font-size: 16px !important; }
+
+  .s6-part1 .s6-content { flex-direction: column; text-align: center; }
+  .s6-content .br { text-align: center; }
+  .s6-right p { font-size: 16px !important; text-align: start; margin-bottom: 20px !important; }
+  .s6-qrcode { display: none; }
+  .s6-button { display: flex !important; }
+  .s6-qrcode-text { font-size: 22px; }
+  .s6-part3-inner { flex-direction: column; gap: 40px; }
+  .s6-left-images, .s6-right-images { padding-bottom: 2rem !important; align-items: center !important; }
+  .s6-img-top-row { height: auto !important; margin-bottom: 20px; }
+  .s6-img-bottom-row { justify-content: center; flex-direction: column; gap: 50px; }
+  .s6-part2 { padding: 0 !important; }
+}
+
+@media (max-width: 480px) {
+  .s1 .s1-content .side-block .gradient-text { font-size: 20px; }
+  .s2-button { width: 100%; justify-content: center; }
+  .s4-safety-item p { font-size: 12px !important; }
+  .s6-qrcode { width: 200px !important; height: 200px !important; }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .s1 { min-height: 250px; padding: 20px 0; }
+}
