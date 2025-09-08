@@ -204,6 +204,14 @@ body {
             font-size: 20px;
             color: #EE6926;
         }
+
+        .s2-button-date-quinta {
+            display: block;
+            margin-top: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: #291B58;
+        }
     }
 
     .s2-bottom-right {
