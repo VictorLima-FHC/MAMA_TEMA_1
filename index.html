@@ -26,9 +26,9 @@
         <div class="s2-jump">
             <span class="s2-jump-label">Jump to:</span>
             <div class="s2-buttons">
-                <button class="s2-btn">Recomendações de Testes</button>
-                <button class="s2-btn">Biomarcadores que Orientam as Opções de Tratamento</button>
-                <button class="s2-btn">Biomarcadores Acionáveis Mais Frequentes</button>
+                <button class="s2-btn" href="#recomendacoes-testes">Recomendações de Testes</button>
+                <button class="s2-btn" href="#tratamento">Biomarcadores que Orientam as Opções de Tratamento</button>
+                <button class="s2-btn"  href="#acionaveis">Biomarcadores Acionáveis Mais Frequentes</button>
             </div>
         </div>
     </section>
@@ -112,9 +112,9 @@
                     <div class="s4-item">
                         <p class="title">HER2-low <br>(IHQ 2+ com ISH negativo)</p>
                         <p class="description">Coloração fraca a moderada, circunferencial e/ou incompleta, em mais de
-                            10%
-                            das células tumorais. O teste ISH deve mostrar razão HER2/CEP17 Sou um modelo de linguagem e
-                            esse pedido está além das minhas capacidades.</p>
+                            10% das células tumorais. O teste ISH deve mostrar razão HER2/CEP17 menor que 2,0 ou menos
+                            de quatro sinais por núcleo.
+                        </p>
                     </div>
                     <div class="s4-item">
                         <p class="title">HER2 3+</p>
@@ -127,7 +127,7 @@
         </div>
     </section>
 
-    <section class="s5">
+    <section class="s5" id="recomendacoes-testes">
         <div class="s5-main-container">
             <div class="s5-top">
                 <div class="s5-top-header">
@@ -245,11 +245,11 @@
                 <p>Figura 2 - Imunohistoquímica de HER2 mostrando as quatro categorias imunohistoquímicas atuais <br>em
                     carcinomas ductais de mama.</p>
                 <img src="assets/Camada_1.jpg" alt="Figura 2" />
-                <p>Fonte : Ad a ptado de Shaa ba n AM , et a l . 2025<sup>9</sup></p>
+                <p>Fonte: Adaptado de Shaaban AM, et al. 2025<sup>9</sup></p>
             </div>
 
             <div class="s7-full-box">
-                <div class="s7-full-container">
+                <div class="s7-full-container" id="tratamento">
                     <h3>Como os laboratórios podem se adaptar?</h3>
                     <p>Para melhor avaliar o HER2 segundo os novos critérios, os laboratórios necessitam de
                         aprimoramento em seus protocolos e práticas.</p>
@@ -362,7 +362,7 @@
     <section class="s9">
         <div class="s9-container">
 
-            <div class="s9-header">
+            <div class="s9-header" id="acionaveis">
                 <img src="assets/dna.png" alt="Ícone Qualidade" class="s9-icon" />
                 <h2 class="s9-title">Qualidade e treinamento:<br />Peças-chave</h2>
             </div>
@@ -575,7 +575,22 @@
     </section>
 
 
-    <script src="script.js"></script>
+    <script>
+        const botoes = document.querySelectorAll('.s2-btn');
+
+        const secoes = ['recomendacoes-testes', 'tratamento', 'acionaveis'];
+
+        botoes.forEach((botao, index) => {
+            botao.addEventListener('click', function () {
+                const destinoId = secoes[index];
+                const elementoDestino = document.getElementById(destinoId);
+
+                if (elementoDestino) {
+                    elementoDestino.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

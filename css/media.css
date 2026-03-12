@@ -25,7 +25,9 @@
   .s5,
   .s7,
   .s8,
-  .s9, .s10, .s11 {
+  .s9,
+  .s10,
+  .s11 {
     padding: 20px;
   }
 
@@ -62,6 +64,10 @@
   .s4-top-texts h2,
   h3 {
     font-size: 18px !important;
+  }
+
+  .s4-top-texts h3 span {
+    font-size: 15px !important;
   }
 
   .s4-top-text {
@@ -300,14 +306,17 @@
   }
 
   .s9-title {
-            font-size: 18px !important;
+    font-size: 18px !important;
   }
 
   .s9-text {
     font-size: 12px !important;
   }
 
-  .s9-subtitle, .s9-text-indent, .s9-box, .margin {
+  .s9-subtitle,
+  .s9-text-indent,
+  .s9-box,
+  .margin {
     margin: 0 !important;
     font-size: 12px !important;
   }
@@ -319,8 +328,8 @@
   }
 
   .s9-future-bg {
-                    right: -1rem !important;
-    transform: translateX(calc(( -600vw - 20%) / 160)) !important;
+    right: -1rem !important;
+    transform: translateX(calc((-600vw - 20%) / 160)) !important;
   }
 
   .desk-future {
@@ -358,9 +367,9 @@
 
   .s10-container p {
     font-size: 12px !important;
-                line-height: 1.2 !important;
+    line-height: 1.2 !important;
 
-    
+
   }
 
   .s10-box {
@@ -368,11 +377,16 @@
   }
 
   .s11-container {
-    gap: 10px !important;
+    gap: 5px !important;
   }
 
   .s11-container p {
-    font-size: 6px !important;
-            line-height: 1.2 !important;
+    font-size: 10px !important;
+    line-height: 1 !important;
+    text-align: left !important;
+  }
+
+  .s11 .s11-container-br p {
+    font-size: 10px !important;
   }
 }
